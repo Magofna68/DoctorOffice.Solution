@@ -14,7 +14,7 @@
 
 @foreach (Patient patient in Model.OrderBy(d => d.Name))
 {
-  <li>@Html.ActionLink($"{patient.Name}" + $"|| {patient.Birthday}", "Details", new { id = patient.PatientId })</li>
+  <li>@Html.ActionLink($"{patient.Name}" + $" || {patient.Birthday}", "Details", new { id = patient.PatientId })</li>
 }
 
 <p>@Html.ActionLink("Add new patient", "Create")</p>

@@ -50,6 +50,13 @@ namespace DoctorOffice.Controllers
       return View(thisPatient);
     }
 
+    public ActionResult Edit(int id)
+    {
+      var thisPatient = _db.Patient.FirstOrDefault(patient => patient.PatientId == id);
+      ViewBag.DoctorId = new SelectList(_db.Doctor, "DoctorId", "Name");
+      return View(thisPatient);
+    }
+
     [HttpPost]
     public ActionResult Edit(Patient patient, int doctorId)
     {

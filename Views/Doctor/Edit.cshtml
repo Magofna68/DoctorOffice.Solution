@@ -4,11 +4,11 @@
 
 @model DoctorOffice.Models.Doctor
 
-<h2< /h2>Edit</h2>
+<h2>Edit</h2>
 
-  <h4>Edit this doctor: @Html.DisplayFor(model => model.Name)</h4>
+<h4>Edit this doctor: @Html.DisplayFor(model => model.Name)</h4>
 
-  @using (Html.BeginForm())
+@using (Html.BeginForm())
 {
   @Html.HiddenFor(model => model.DoctorId)
 
@@ -17,7 +17,7 @@
   @Html.LabelFor(model=> model.Specialty)
   @Html.TextBoxFor(model => model.Specialty)
 
-    <input type="submit" value="Save" />
+  <input type="submit" value="Save" />
 }
 
-  <p>@Html.ActionLink("Back to doctors", "Index")</p>
+<p>@Html.ActionLink("Back to doctors", "Index")</p>
