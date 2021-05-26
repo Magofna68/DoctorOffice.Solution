@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DoctorOffice.Migrations
 {
     [DbContext(typeof(DoctorOfficeContext))]
-    [Migration("20210526174534_Initial")]
-    partial class Initial
+    [Migration("20210526210702_TestMigration")]
+    partial class TestMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

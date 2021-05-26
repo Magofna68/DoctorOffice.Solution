@@ -42,3 +42,4 @@
 /Users/Admin/Desktop/Epicodus/week-11/DoctorOffice.Solution/DoctorOffice/obj/Debug/net5.0/ref/DoctorOffice.dll
 /Users/Admin/Desktop/Epicodus/week-11/DoctorOffice.Solution/DoctorOffice/obj/Debug/net5.0/DoctorOffice.pdb
 /Users/Admin/Desktop/Epicodus/week-11/DoctorOffice.Solution/DoctorOffice/obj/Debug/net5.0/DoctorOffice.genruntimeconfig.cache
+/Users/Admin/Desktop/Epicodus/week-11/DoctorOffice.Solution/DoctorOffice/obj/Debug/net5.0/Razor/Views/Doctor/Create.cshtml.g.cs
