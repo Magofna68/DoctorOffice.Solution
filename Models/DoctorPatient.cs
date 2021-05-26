@@ -9,4 +9,3 @@ namespace DoctorOffice.Models
     public virtual Patient Patient { get; set; }
   }
 }
-}
