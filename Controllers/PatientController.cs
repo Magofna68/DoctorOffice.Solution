@@ -107,7 +107,5 @@ namespace DoctorOffice.Controllers
       _db.SaveChanges();
       return RedirectToAction("Index");
     }
-
-
   }
 }
