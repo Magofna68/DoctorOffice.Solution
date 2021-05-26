@@ -15644,13 +15644,28 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/Admin/Desktop/Epicodus/week-11/DoctorOffice.Solution/DoctorOffice/Views/Patient/AddDoctor.cshtml",
+      "TargetPath": "Views\\Patient\\AddDoctor.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/Admin/Desktop/Epicodus/week-11/DoctorOffice.Solution/DoctorOffice/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/Admin/Desktop/Epicodus/week-11/DoctorOffice.Solution/DoctorOffice/Views/Patient/Create.cshtml",
+      "TargetPath": "Views\\Patient\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/Admin/Desktop/Epicodus/week-11/DoctorOffice.Solution/DoctorOffice/Views/Patient/Index.cshtml",
       "TargetPath": "Views\\Patient\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/Admin/Desktop/Epicodus/week-11/DoctorOffice.Solution/DoctorOffice/Views/Doctor/Details.cshtml",
+      "TargetPath": "Views\\Doctor\\Details.cshtml",
       "FileKind": "mvc"
     }
   ],
