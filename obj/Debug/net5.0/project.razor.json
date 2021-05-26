@@ -15644,6 +15644,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/Admin/Desktop/Epicodus/week-11/DoctorOffice.Solution/DoctorOffice/Views/Patient/Delete.cshtml",
+      "TargetPath": "Views\\Patient\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/Admin/Desktop/Epicodus/week-11/DoctorOffice.Solution/DoctorOffice/Views/Doctor/Edit.cshtml",
       "TargetPath": "Views\\Doctor\\Edit.cshtml",
       "FileKind": "mvc"
