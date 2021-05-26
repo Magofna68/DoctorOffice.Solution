@@ -4,8 +4,14 @@ using System.ComponentModel.DataAnnotations;
 
 namespace DoctorOffice.Models
 {
-  public class Patient
+  public class Doctor
   {
-
+    public Doctor()
+    {
+      this.JoinEntities = new HashSet<DoctorPatient>();
+    }
+    public string Name { get; set; }
+    public string Specialty { get; set; }
+    public virtual ICollection<DoctorPatient> JoinEntities { get; set; }
   }
 }
