@@ -6,7 +6,7 @@ namespace DoctorOffice.Models
 {
   public class Patient
   {
-    public Item()
+    public Patient()
     {
       this.JoinEntities = new HashSet<DoctorPatient>();
     }
@@ -14,5 +14,7 @@ namespace DoctorOffice.Models
     public int PatientId { get; set; }
     public string Name { get; set; }
     public DateTime Birthday { get; set; }
+
+    public virtual ICollection<DoctorPatient> JointEntities { get; set; }
   }
 }
