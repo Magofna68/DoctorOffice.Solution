@@ -48,3 +48,5 @@
 /Users/Admin/Desktop/Epicodus/week-11/DoctorOffice.Solution/DoctorOffice/obj/Debug/net5.0/Razor/Views/Doctor/Details.cshtml.g.cs
 /Users/Admin/Desktop/Epicodus/week-11/DoctorOffice.Solution/DoctorOffice/obj/Debug/net5.0/Razor/Views/Patient/AddDoctor.cshtml.g.cs
 /Users/Admin/Desktop/Epicodus/week-11/DoctorOffice.Solution/DoctorOffice/obj/Debug/net5.0/Razor/Views/Patient/Create.cshtml.g.cs
+/Users/Admin/Desktop/Epicodus/week-11/DoctorOffice.Solution/DoctorOffice/obj/Debug/net5.0/Razor/Views/Patient/Edit.cshtml.g.cs
+/Users/Admin/Desktop/Epicodus/week-11/DoctorOffice.Solution/DoctorOffice/obj/Debug/net5.0/Razor/Views/Patient/Details.cshtml.g.cs

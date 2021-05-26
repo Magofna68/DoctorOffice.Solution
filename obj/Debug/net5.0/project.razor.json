@@ -15619,8 +15619,18 @@
   "RootNamespace": "DoctorOffice",
   "Documents": [
     {
+      "FilePath": "/Users/Admin/Desktop/Epicodus/week-11/DoctorOffice.Solution/DoctorOffice/Views/Patient/Edit.cshtml",
+      "TargetPath": "Views\\Patient\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/Admin/Desktop/Epicodus/week-11/DoctorOffice.Solution/DoctorOffice/Views/Doctor/Index.cshtml",
       "TargetPath": "Views\\Doctor\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/Admin/Desktop/Epicodus/week-11/DoctorOffice.Solution/DoctorOffice/Views/Patient/Details.cshtml",
+      "TargetPath": "Views\\Patient\\Details.cshtml",
       "FileKind": "mvc"
     },
     {

@@ -14,7 +14,8 @@
 
 @foreach (Doctor doctor in Model)
 {
-  <li>@Html.ActionLink($"{doctor.Name}" + $"|| {doctor.Specialty}", "Details", new { id = doctor.DoctorId })</li>
+  <li>@Html.ActionLink($"{doctor.Name} " + " || " + $" {doctor.Specialty}", "Details", new { id = doctor.DoctorId })
+</li>
 }
 
 <p>@Html.ActionLink("Add new doctor", "Create")</p>
