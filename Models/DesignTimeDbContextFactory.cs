@@ -5,9 +5,9 @@ using System.IO;
 
 namespace DoctorOffice.Models
 {
-  public class DoctorOfficeContextFactory: IDesignTimeDbContextFactory<DoctorOfficeContext>
+  public class DoctorOfficeContextFactory : IDesignTimeDbContextFactory<DoctorOfficeContext>
   {
-    DoctorOfficeContextFactory IDesignTimeDbContextFactory<DoctorOfficeContext>.CreateDbContexTextReader.(string[] args)
+    DoctorOfficeContext IDesignTimeDbContextFactory<DoctorOfficeContext>.CreateDbContext(string[] args)
     {
       IConfigurationRoot configuration = new ConfigurationBuilder()
           .SetBasePath(Directory.GetCurrentDirectory())
@@ -20,5 +20,6 @@ namespace DoctorOffice.Models
       ServerVersion.AutoDetect(configuration["ConnectionStrings:DefaultConnection"]));
 
       return new DoctorOfficeContext(builder.Options);
+    }
   }
-}}
+}
